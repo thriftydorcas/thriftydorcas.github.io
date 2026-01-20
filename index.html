@@ -121,17 +121,20 @@
     }
 
     /* ================= AVATAR IMAGE ================= */
-    .avatar {
-      width: 110px;
-      height: 110px;
-      border-radius: 50%;
-      background: white;
-      display: grid;
-      place-items: center;
-      margin: 0 auto 1rem;
-      box-shadow: 0 10px 30px rgba(0,0,0,.15);
-      overflow: hidden;
-    }
+.avatar {
+  width: 100%;           /* same width as link buttons */
+  max-width: 100%;       /* keep it inside container */
+  height: 200px;         /* adjust height as you like */
+  border-radius: 18px;   /* rounded rectangle */
+  background: white;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 1.2rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,.15);
+  overflow: hidden;
+}
+
+
 
     .avatar img {
       width: 100%;
@@ -199,22 +202,22 @@
   <div class="container">
     <!-- IMAGE AVATAR -->
     <div class="avatar">
-      <img src="thrifydorcas-profilepic.jpg" alt="Thrifty Dorcas" />
+      <img src="collage_2.jpeg" alt="Thrifty Dorcas" />
     </div>
 
     <h1>Thrifty Dorcas</h1>
     <p>Deals • Lifestyle • Glow ✨</p>
 
     <a class="link" href="https://www.amazon.com/shop/thriftydorcas" target="_blank">
-      🛒 Amazon Storefront
+       Amazon Storefront
     </a>
 
     <a class="link" href="https://shopmy.us/shop/thriftydorcas" target="_blank">
-      🛍️ ShopMy
+       Shop My Favorites
     </a>
 
     <a class="link" href="https://substack.com/@thriftydorcas" target="_blank">
-      📰 Substack
+       Substack
     </a>
 
     <a class="link" href="http://www.youtube.com/@dorcasglows" target="_blank">
@@ -225,8 +228,7 @@
       💌 Work With Me
     </a>
 
-    <div class="link disabled">✨ LTK (Coming Soon)</div>
-    <div class="link disabled">📁 Portfolio (Coming Soon)</div>
+
 
     <footer>
       © 2026 Thrifty Dorcas
